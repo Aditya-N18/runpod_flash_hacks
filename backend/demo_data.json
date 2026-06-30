@@ -1,0 +1,430 @@
+{
+  "ranked": [
+    {
+      "parcel_id": "APN-016",
+      "lat": 34.60306,
+      "lon": -117.19569,
+      "final_score": 80.9,
+      "factors": {
+        "solar": 74.5,
+        "terrain": 94.7,
+        "grid": 92.6,
+        "land_cost": 97.0,
+        "maintenance": 69.5,
+        "locality": 100.0,
+        "wildlife": 51.0,
+        "sentiment": 75.0
+      },
+      "rank": 1
+    },
+    {
+      "parcel_id": "APN-013",
+      "lat": 34.31712,
+      "lon": -116.98221,
+      "final_score": 69.3,
+      "factors": {
+        "solar": 98.8,
+        "terrain": 24.7,
+        "grid": 76.2,
+        "land_cost": 77.0,
+        "maintenance": 48.5,
+        "locality": 100.0,
+        "wildlife": 18.0,
+        "sentiment": 90.0
+      },
+      "rank": 2
+    },
+    {
+      "parcel_id": "APN-024",
+      "lat": 34.81082,
+      "lon": -117.07744,
+      "final_score": 68.4,
+      "factors": {
+        "solar": 75.2,
+        "terrain": 78.0,
+        "grid": 61.4,
+        "land_cost": 35.8,
+        "maintenance": 72.5,
+        "locality": 100.0,
+        "wildlife": 93.0,
+        "sentiment": 50.0
+      },
+      "rank": 3
+    },
+    {
+      "parcel_id": "APN-008",
+      "lat": 34.64326,
+      "lon": -116.96262,
+      "final_score": 68.0,
+      "factors": {
+        "solar": 92.5,
+        "terrain": 57.3,
+        "grid": 73.8,
+        "land_cost": 76.4,
+        "maintenance": 49.0,
+        "locality": 100.0,
+        "wildlife": 10.0,
+        "sentiment": 75.0
+      },
+      "rank": 4
+    },
+    {
+      "parcel_id": "APN-020",
+      "lat": 34.80582,
+      "lon": -116.69078,
+      "final_score": 62.2,
+      "factors": {
+        "solar": 27.0,
+        "terrain": 54.7,
+        "grid": 78.6,
+        "land_cost": 61.7,
+        "maintenance": 94.0,
+        "locality": 100.0,
+        "wildlife": 73.0,
+        "sentiment": 90.0
+      },
+      "rank": 5
+    },
+    {
+      "parcel_id": "APN-015",
+      "lat": 34.37069,
+      "lon": -117.01297,
+      "final_score": 61.9,
+      "factors": {
+        "solar": 99.5,
+        "terrain": 39.3,
+        "grid": 57.4,
+        "land_cost": 50.5,
+        "maintenance": 88.0,
+        "locality": 100.0,
+        "wildlife": 41.0,
+        "sentiment": 15.0
+      },
+      "rank": 6
+    },
+    {
+      "parcel_id": "APN-005",
+      "lat": 34.71384,
+      "lon": -116.60887,
+      "final_score": 60.5,
+      "factors": {
+        "solar": 87.2,
+        "terrain": 19.3,
+        "grid": 62.8,
+        "land_cost": 56.7,
+        "maintenance": 25.0,
+        "locality": 100.0,
+        "wildlife": 33.0,
+        "sentiment": 75.0
+      },
+      "rank": 7
+    },
+    {
+      "parcel_id": "APN-018",
+      "lat": 34.7683,
+      "lon": -117.1675,
+      "final_score": 60.4,
+      "factors": {
+        "solar": 69.8,
+        "terrain": 40.0,
+        "grid": 93.2,
+        "land_cost": 30.4,
+        "maintenance": 27.5,
+        "locality": 100.0,
+        "wildlife": 46.0,
+        "sentiment": 50.0
+      },
+      "rank": 8
+    },
+    {
+      "parcel_id": "APN-003",
+      "lat": 34.50357,
+      "lon": -117.03328,
+      "final_score": 59.7,
+      "factors": {
+        "solar": 31.2,
+        "terrain": 28.7,
+        "grid": 89.2,
+        "land_cost": 63.7,
+        "maintenance": 67.0,
+        "locality": 100.0,
+        "wildlife": 96.0,
+        "sentiment": 15.0
+      },
+      "rank": 9
+    },
+    {
+      "parcel_id": "APN-025",
+      "lat": 34.6227,
+      "lon": -116.8622,
+      "final_score": 54.2,
+      "factors": {
+        "solar": 21.3,
+        "terrain": 50.0,
+        "grid": 51.0,
+        "land_cost": 87.3,
+        "maintenance": 68.0,
+        "locality": 94.0,
+        "wildlife": 72.0,
+        "sentiment": 50.0
+      },
+      "rank": 10
+    },
+    {
+      "parcel_id": "APN-006",
+      "lat": 34.81199,
+      "lon": -116.81118,
+      "final_score": 54.0,
+      "factors": {
+        "solar": 65.8,
+        "terrain": 84.0,
+        "grid": 29.8,
+        "land_cost": 84.4,
+        "maintenance": 65.0,
+        "locality": 18.7,
+        "wildlife": 44.0,
+        "sentiment": 15.0
+      },
+      "rank": 11
+    },
+    {
+      "parcel_id": "APN-010",
+      "lat": 34.47897,
+      "lon": -116.60233,
+      "final_score": 52.8,
+      "factors": {
+        "solar": 58.7,
+        "terrain": 9.3,
+        "grid": 17.2,
+        "land_cost": 98.9,
+        "maintenance": 35.0,
+        "locality": 74.0,
+        "wildlife": 73.0,
+        "sentiment": 50.0
+      },
+      "rank": 12
+    },
+    {
+      "parcel_id": "APN-021",
+      "lat": 34.72108,
+      "lon": -117.02885,
+      "final_score": 52.6,
+      "factors": {
+        "solar": 73.5,
+        "terrain": 32.0,
+        "grid": 24.6,
+        "land_cost": 36.8,
+        "maintenance": 55.5,
+        "locality": 100.0,
+        "wildlife": 94.0,
+        "sentiment": 10.0
+      },
+      "rank": 13
+    },
+    {
+      "parcel_id": "APN-014",
+      "lat": 34.56962,
+      "lon": -117.12454,
+      "final_score": 49.5,
+      "factors": {
+        "solar": 70.2,
+        "terrain": 11.3,
+        "grid": 83.4,
+        "land_cost": 49.6,
+        "maintenance": 45.0,
+        "locality": 23.0,
+        "wildlife": 24.0,
+        "sentiment": 10.0
+      },
+      "rank": 14
+    },
+    {
+      "parcel_id": "APN-004",
+      "lat": 34.57174,
+      "lon": -116.61613,
+      "final_score": 49.1,
+      "factors": {
+        "solar": 45.5,
+        "terrain": 48.7,
+        "grid": 20.2,
+        "land_cost": 40.9,
+        "maintenance": 22.5,
+        "locality": 92.7,
+        "wildlife": 95.0,
+        "sentiment": 50.0
+      },
+      "rank": 15
+    },
+    {
+      "parcel_id": "APN-017",
+      "lat": 34.32939,
+      "lon": -116.63869,
+      "final_score": 47.1,
+      "factors": {
+        "solar": 62.5,
+        "terrain": 56.0,
+        "grid": 24.4,
+        "land_cost": 22.8,
+        "maintenance": 82.0,
+        "locality": 100.0,
+        "wildlife": 58.0,
+        "sentiment": 30.0
+      },
+      "rank": 16
+    },
+    {
+      "parcel_id": "APN-001",
+      "lat": 34.3168,
+      "lon": -116.75507,
+      "final_score": 45.7,
+      "factors": {
+        "solar": 34.0,
+        "terrain": 86.7,
+        "grid": 89.2,
+        "land_cost": 29.2,
+        "maintenance": 50.5,
+        "locality": 90.3,
+        "wildlife": 0.0,
+        "sentiment": 15.0
+      },
+      "rank": 17
+    },
+    {
+      "parcel_id": "APN-011",
+      "lat": 34.45411,
+      "lon": -117.0239,
+      "final_score": 44.6,
+      "factors": {
+        "solar": 26.2,
+        "terrain": 100.0,
+        "grid": 30.4,
+        "land_cost": 31.2,
+        "maintenance": 12.5,
+        "locality": 59.7,
+        "wildlife": 89.0,
+        "sentiment": 15.0
+      },
+      "rank": 18
+    },
+    {
+      "parcel_id": "APN-023",
+      "lat": 34.29078,
+      "lon": -116.68291,
+      "final_score": 44.5,
+      "factors": {
+        "solar": 47.8,
+        "terrain": 12.0,
+        "grid": 44.8,
+        "land_cost": 44.7,
+        "maintenance": 95.5,
+        "locality": 100.0,
+        "wildlife": 43.0,
+        "sentiment": 30.0
+      },
+      "rank": 19
+    },
+    {
+      "parcel_id": "APN-012",
+      "lat": 34.42907,
+      "lon": -116.81663,
+      "final_score": 43.7,
+      "factors": {
+        "solar": 65.8,
+        "terrain": 86.0,
+        "grid": 26.6,
+        "land_cost": 48.5,
+        "maintenance": 29.5,
+        "locality": 100.0,
+        "wildlife": 0.0,
+        "sentiment": 15.0
+      },
+      "rank": 20
+    },
+    {
+      "parcel_id": "APN-002",
+      "lat": 34.55321,
+      "lon": -117.18408,
+      "final_score": 42.1,
+      "factors": {
+        "solar": 30.0,
+        "terrain": 39.3,
+        "grid": 47.2,
+        "land_cost": 78.9,
+        "maintenance": 46.5,
+        "locality": 51.0,
+        "wildlife": 0.0,
+        "sentiment": 75.0
+      },
+      "rank": 21
+    },
+    {
+      "parcel_id": "APN-019",
+      "lat": 34.50313,
+      "lon": -117.03287,
+      "final_score": 36.9,
+      "factors": {
+        "solar": 34.2,
+        "terrain": 14.0,
+        "grid": 57.0,
+        "land_cost": 17.7,
+        "maintenance": 50.0,
+        "locality": 74.0,
+        "wildlife": 16.0,
+        "sentiment": 75.0
+      },
+      "rank": 22
+    },
+    {
+      "parcel_id": "APN-009",
+      "lat": 34.4672,
+      "lon": -116.6016,
+      "final_score": 36.2,
+      "factors": {
+        "solar": 24.5,
+        "terrain": 54.0,
+        "grid": 27.2,
+        "land_cost": 17.7,
+        "maintenance": 85.5,
+        "locality": 100.0,
+        "wildlife": 40.0,
+        "sentiment": 50.0
+      },
+      "rank": 23
+    },
+    {
+      "parcel_id": "APN-007",
+      "lat": 34.44457,
+      "lon": -116.73901,
+      "final_score": 30.0,
+      "factors": {
+        "solar": 17.5,
+        "terrain": 23.3,
+        "grid": 22.6,
+        "land_cost": 61.7,
+        "maintenance": 93.0,
+        "locality": 32.3,
+        "wildlife": 28.0,
+        "sentiment": 15.0
+      },
+      "rank": 24
+    },
+    {
+      "parcel_id": "APN-022",
+      "lat": 34.57532,
+      "lon": -116.75121,
+      "final_score": 26.6,
+      "factors": {
+        "solar": 17.5,
+        "terrain": 45.3,
+        "grid": 51.2,
+        "land_cost": 18.5,
+        "maintenance": 85.0,
+        "locality": 23.7,
+        "wildlife": 0.0,
+        "sentiment": 15.0
+      },
+      "rank": 25
+    }
+  ],
+  "count": 25
+}

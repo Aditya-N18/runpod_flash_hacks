@@ -1,0 +1,60 @@
+{
+  "parcels": [
+    {
+      "parcel_id": "APN-001-GOOD",
+      "lat": 34.52,
+      "lon": -116.88,
+      "ghi_kwh_m2_day": 6.2,
+      "slope_degrees": 2.0,
+      "grid_distance_km": 3.5,
+      "land_price_per_acre": 900,
+      "road_distance_km": 1.0,
+      "locality_distance_km": 15.0,
+      "sentiment_text": "Residents welcomed the proposed solar project, citing new jobs and tax revenue.",
+      "is_protected_land": false,
+      "habitat_sensitivity": 0.1
+    },
+    {
+      "parcel_id": "APN-002-FAR-GRID",
+      "lat": 34.6,
+      "lon": -116.95,
+      "ghi_kwh_m2_day": 6.8,
+      "slope_degrees": 1.5,
+      "grid_distance_km": 45.0,
+      "land_price_per_acre": 700,
+      "road_distance_km": 5.0,
+      "locality_distance_km": 40.0,
+      "sentiment_text": "",
+      "is_protected_land": false,
+      "habitat_sensitivity": 0.2
+    },
+    {
+      "parcel_id": "APN-003-OPPOSED",
+      "lat": 34.55,
+      "lon": -116.8,
+      "ghi_kwh_m2_day": 6.0,
+      "slope_degrees": 3.0,
+      "grid_distance_km": 8.0,
+      "land_price_per_acre": 1100,
+      "road_distance_km": 2.0,
+      "locality_distance_km": 12.0,
+      "sentiment_text": "Hundreds signed a petition opposing the solar farm, citing noise and habitat loss concerns.",
+      "is_protected_land": false,
+      "habitat_sensitivity": 0.3
+    },
+    {
+      "parcel_id": "APN-004-PROTECTED",
+      "lat": 34.48,
+      "lon": -116.9,
+      "ghi_kwh_m2_day": 6.5,
+      "slope_degrees": 2.5,
+      "grid_distance_km": 6.0,
+      "land_price_per_acre": 800,
+      "road_distance_km": 1.5,
+      "locality_distance_km": 20.0,
+      "sentiment_text": "",
+      "is_protected_land": true,
+      "habitat_sensitivity": 0.9
+    }
+  ]
+}
