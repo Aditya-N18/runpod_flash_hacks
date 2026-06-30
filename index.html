@@ -1,0 +1,103 @@
+<!-- Serve locally: npx serve .  (fetch needs HTTP, not file://) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SolarSiteIQ — Solar Siting Intelligence</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/cesium@1.142.0/Build/Cesium/Widgets/widgets.css">
+  <link rel="stylesheet" href="solar.css">
+</head>
+<body>
+  <div id="cesiumContainer" class="globe"></div>
+
+  <!-- Boot / token gate -->
+  <div class="boot" id="boot">
+    <div class="boot__mark">☀</div>
+    <p class="boot__text" id="boot-text">Initializing terrain…</p>
+  </div>
+
+  <!-- Top brand -->
+  <header class="brand">
+    <div class="brand__mark" aria-hidden="true">
+      <span class="brand__sun"></span>
+    </div>
+    <div class="brand__lockup">
+      <h1 class="brand__name">SolarSiteIQ</h1>
+      <p class="brand__tag" id="brand-tag">SITING INTELLIGENCE · KERN COUNTY, CA</p>
+    </div>
+  </header>
+
+  <!-- ZIP locator -->
+  <form class="locator" id="locator" autocomplete="off">
+    <label class="locator__label" for="zip-input">JUMP TO ZIP</label>
+    <div class="locator__row">
+      <input class="locator__input" id="zip-input" name="zip" inputmode="numeric" maxlength="5" placeholder="93301" aria-label="ZIP code">
+      <button class="locator__btn" type="submit" id="zip-btn">Locate</button>
+    </div>
+    <p class="locator__status" id="zip-status" aria-live="polite"></p>
+  </form>
+
+  <!-- Map layer toggles -->
+  <div class="layers" id="layers" role="group" aria-label="Map layers">
+    <button class="chip" id="t-heat" type="button" aria-pressed="false"><span class="chip__dot"></span>Heatmap</button>
+    <button class="chip" id="t-hex" type="button" aria-pressed="false"><span class="chip__dot"></span>Hex grid</button>
+  </div>
+
+  <!-- Left console: search + pipeline + ranked sites -->
+  <aside class="console" id="console">
+    <section class="finder">
+      <label class="finder__label" for="name-search">SEARCH SITES BY NAME</label>
+      <div class="finder__wrap">
+        <input class="finder__input" id="name-search" placeholder="e.g. Antelope Flats" autocomplete="off" aria-label="Search sites by name">
+        <ul class="finder__results" id="finder-results" hidden></ul>
+      </div>
+    </section>
+
+    <section class="pipe" aria-label="Evaluation pipeline">
+      <div class="pipe__head">
+        <span class="pipe__eyebrow">EVALUATION PIPELINE</span>
+        <span class="pipe__count" id="pipe-count"></span>
+      </div>
+      <ol class="pipe__stages" id="pipe-stages"><!-- stages injected --></ol>
+      <button class="run" id="run-btn" type="button">
+        <span class="run__label">Evaluate sites</span>
+        <span class="run__sub">2,400 parcels · 8 factors</span>
+      </button>
+    </section>
+
+    <section class="ranked" id="ranked" hidden aria-label="Ranked sites">
+      <div class="ranked__head">
+        <span class="ranked__eyebrow">RANKED SITES</span>
+      </div>
+      <ol class="ranked__list" id="ranked-list"></ol>
+    </section>
+  </aside>
+
+  <!-- Right: 8-factor breakdown -->
+  <aside class="sheet" id="sheet" aria-hidden="true" aria-label="Site breakdown">
+    <button class="sheet__close" id="sheet-close" aria-label="Close">&times;</button>
+    <div class="sheet__scroll" id="sheet-content"></div>
+  </aside>
+
+  <!-- Instrument readout -->
+  <div class="readout" id="readout">
+    <span class="readout__item"><span class="readout__k">LAT</span> <span id="ro-lat">—</span></span>
+    <span class="readout__item"><span class="readout__k">LNG</span> <span id="ro-lng">—</span></span>
+    <span class="readout__legend">
+      <span class="readout__swatch readout__swatch--pv"></span> operating farm
+      <span class="readout__swatch readout__swatch--hi"></span> strong
+      <span class="readout__swatch readout__swatch--lo"></span> weak
+    </span>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script>window.CESIUM_BASE_URL = "https://unpkg.com/cesium@1.142.0/Build/Cesium/";</script>
+  <script src="https://unpkg.com/cesium@1.142.0/Build/Cesium/Cesium.js"></script>
+  <script src="solar.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!-- Serve locally: npx serve .  (same server as index.html — fetch needs HTTP, not file://) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SolarSiteIQ — Sun View</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="sun-view.css">
+  <link rel="stylesheet" href="https://unpkg.com/cesium@1.142.0/Build/Cesium/Widgets/widgets.css">
+</head>
+<body>
+  <div class="sv-app">
+    <header class="sv-header">
+      <div class="sv-header-left">
+        <span class="sv-app-name">SolarSiteIQ</span>
+        <span class="sv-subtitle">Sun View — live shadow &amp; exposure on real terrain</span>
+      </div>
+      <a href="index.html" class="sv-nav-link">&larr; Back to Map</a>
+    </header>
+
+    <main class="sv-body">
+      <div class="sv-globe-wrap">
+        <div id="cesiumContainer"></div>
+
+        <div class="sv-time-bar">
+          <div class="sv-time-row">
+            <span class="sv-time-label" id="sv-time-display">--:-- PT</span>
+            <button type="button" class="sv-now-btn" id="sv-now-btn">Now</button>
+          </div>
+          <input type="range" id="sv-time-slider" class="sv-slider" min="0" max="24" step="0.05" value="12">
+          <div class="sv-sun-readout">
+            <span id="sv-sun-altitude">Altitude: --°</span>
+            <span id="sv-sun-azimuth">Azimuth: --°</span>
+          </div>
+        </div>
+      </div>
+
+      <aside class="sv-panel" id="sv-panel" aria-hidden="true" aria-label="Sun exposure for selected site">
+        <div class="sv-panel__inner">
+          <button type="button" class="sv-panel__close" id="sv-panel-close" aria-label="Close">&times;</button>
+          <div id="sv-panel-content">
+            <p class="sv-empty-hint">Click a site marker on the globe to see its live sun exposure.</p>
+          </div>
+        </div>
+      </aside>
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/suncalc/suncalc.js"></script>
+  <script src="sun.js"></script>
+  <script>
+    // Cesium needs to know where its static assets (workers, textures, assets) live
+    // since it isn't being bundled by a build tool here.
+    window.CESIUM_BASE_URL = "https://unpkg.com/cesium@1.142.0/Build/Cesium/";
+  </script>
+  <script src="https://unpkg.com/cesium@1.142.0/Build/Cesium/Cesium.js"></script>
+  <script src="sun-view.js" defer></script>
+</body>
+</html>

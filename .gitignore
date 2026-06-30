@@ -1,0 +1,12 @@
+# Personal tool config — contains local tokens/settings, do NOT push
+.codex/
+.claude/
+.mcp.json
+
+# Dependencies
+node_modules/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.log

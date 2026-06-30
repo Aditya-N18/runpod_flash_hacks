@@ -1,0 +1,150 @@
+{
+  "county": "Kern County, CA",
+  "center": { "lat": 35.25, "lng": -119.0 },
+  "sites": [
+    { "id": "p_1042", "name": "Sunfield North", "lat": 35.31, "lng": -119.02, "score": 91, "rank": 1, "similarity_to_proven": 0.94, "slope_deg": 1.8, "aspect_deg": 175,
+      "factors": {
+        "irradiance": { "score": 93, "raw": "6.0 kWh/m²/day", "weight": "high" },
+        "slope": { "score": 90, "raw": "1.8° avg" },
+        "grid_distance": { "score": 88, "raw": "1.1 km to substation" },
+        "land_cost": { "score": 82, "raw": "$3,100/acre" },
+        "maintenance": { "score": 85, "raw": "road access 0.3 km" },
+        "locality_distance": { "score": 80, "raw": "5.2 km to nearest town" },
+        "community": { "score": 88, "raw": "no opposition found, 1 supportive article" },
+        "wildlife": { "score": 92, "raw": "no protected habitat" }
+      },
+      "verdict": "Best overall balance: strong sun, close grid access, no community opposition." },
+    { "id": "p_3309", "name": "Buena Vista Mesa", "lat": 35.25, "lng": -119.15, "score": 84, "rank": 2, "similarity_to_proven": 0.88, "slope_deg": 2.2, "aspect_deg": 190,
+      "factors": {
+        "irradiance": { "score": 90, "raw": "5.9 kWh/m²/day", "weight": "high" },
+        "slope": { "score": 84, "raw": "2.2° avg" },
+        "grid_distance": { "score": 79, "raw": "2.6 km to substation" },
+        "land_cost": { "score": 77, "raw": "$3,600/acre" },
+        "maintenance": { "score": 80, "raw": "road access 0.8 km" },
+        "locality_distance": { "score": 75, "raw": "4.4 km to nearest town" },
+        "community": { "score": 82, "raw": "no opposition found" },
+        "wildlife": { "score": 86, "raw": "no protected habitat" }
+      },
+      "verdict": "Strong runner-up: great sun and grid access, slightly higher land cost." },
+    { "id": "p_2234", "name": "Buttonwillow East", "lat": 35.40, "lng": -119.45, "score": 78, "rank": 3, "similarity_to_proven": 0.81, "slope_deg": 2.6, "aspect_deg": 160,
+      "factors": {
+        "irradiance": { "score": 84, "raw": "5.7 kWh/m²/day", "weight": "high" },
+        "slope": { "score": 82, "raw": "2.6° avg" },
+        "grid_distance": { "score": 76, "raw": "3.4 km to substation" },
+        "land_cost": { "score": 70, "raw": "$3,900/acre" },
+        "maintenance": { "score": 76, "raw": "road access 1.2 km" },
+        "locality_distance": { "score": 70, "raw": "3.9 km to nearest town" },
+        "community": { "score": 79, "raw": "no opposition found" },
+        "wildlife": { "score": 81, "raw": "no protected habitat" }
+      },
+      "verdict": "Solid all-around site with no major weaknesses." },
+    { "id": "p_0871", "name": "Lost Hills Ridge", "lat": 35.62, "lng": -119.68, "score": 72, "rank": 4, "similarity_to_proven": 0.75, "slope_deg": 3.8, "aspect_deg": 210,
+      "factors": {
+        "irradiance": { "score": 80, "raw": "5.5 kWh/m²/day" },
+        "slope": { "score": 70, "raw": "3.8° avg" },
+        "grid_distance": { "score": 65, "raw": "4.8 km to substation" },
+        "land_cost": { "score": 68, "raw": "$4,100/acre" },
+        "maintenance": { "score": 72, "raw": "road access 1.8 km" },
+        "locality_distance": { "score": 60, "raw": "2.9 km to nearest town" },
+        "community": { "score": 75, "raw": "no opposition found" },
+        "wildlife": { "score": 70, "raw": "minor grassland habitat" }
+      },
+      "verdict": "Decent mid-tier site, no single factor stands out." },
+    { "id": "p_5523", "name": "Maricopa Lowlands", "lat": 35.06, "lng": -119.40, "score": 71, "rank": 5, "similarity_to_proven": 0.74, "slope_deg": 2.1, "aspect_deg": 150,
+      "factors": {
+        "irradiance": { "score": 78, "raw": "5.4 kWh/m²/day" },
+        "slope": { "score": 80, "raw": "2.1° avg" },
+        "grid_distance": { "score": 60, "raw": "5.6 km to substation" },
+        "land_cost": { "score": 72, "raw": "$3,800/acre" },
+        "maintenance": { "score": 74, "raw": "road access 1.5 km" },
+        "locality_distance": { "score": 65, "raw": "4.7 km to nearest town" },
+        "community": { "score": 70, "raw": "no opposition found" },
+        "wildlife": { "score": 78, "raw": "no protected habitat" }
+      },
+      "verdict": "Balanced but unremarkable; grid distance holds it back." },
+    { "id": "p_4456", "name": "Tehachapi Bench", "lat": 35.13, "lng": -118.45, "score": 65, "rank": 6, "similarity_to_proven": 0.69, "slope_deg": 8.1, "aspect_deg": 95,
+      "factors": {
+        "irradiance": { "score": 85, "raw": "5.8 kWh/m²/day" },
+        "slope": { "score": 42, "raw": "8.1° avg", "flag": true },
+        "grid_distance": { "score": 70, "raw": "3.9 km to substation" },
+        "land_cost": { "score": 65, "raw": "$4,300/acre" },
+        "maintenance": { "score": 55, "raw": "road access 3.2 km" },
+        "locality_distance": { "score": 68, "raw": "5.0 km to nearest town" },
+        "community": { "score": 80, "raw": "no opposition found" },
+        "wildlife": { "score": 75, "raw": "no protected habitat" }
+      },
+      "verdict": "Good sun, but steep terrain drives up construction cost." },
+    { "id": "p_2187", "name": "Antelope Flats", "lat": 34.95, "lng": -118.55, "score": 63, "rank": 7, "similarity_to_proven": 0.81, "slope_deg": 2.4, "aspect_deg": 185,
+      "factors": {
+        "irradiance": { "score": 98, "raw": "6.4 kWh/m²/day", "weight": "high" },
+        "slope": { "score": 85, "raw": "2.4° avg" },
+        "grid_distance": { "score": 31, "raw": "14.7 km to substation", "flag": true },
+        "land_cost": { "score": 75, "raw": "$2,800/acre" },
+        "maintenance": { "score": 60, "raw": "road access 6.1 km" },
+        "locality_distance": { "score": 70, "raw": "3.8 km to nearest town" },
+        "community": { "score": 35, "raw": "3 opposition articles found, active local petition", "flag": true },
+        "wildlife": { "score": 80, "raw": "minor habitat overlap" }
+      },
+      "verdict": "Best sun in the county, but remote grid access and active local opposition sink the score." },
+    { "id": "p_6678", "name": "Wasco Corridor", "lat": 35.59, "lng": -119.34, "score": 61, "rank": 8, "similarity_to_proven": 0.66, "slope_deg": 2.0, "aspect_deg": 200,
+      "factors": {
+        "irradiance": { "score": 88, "raw": "5.9 kWh/m²/day" },
+        "slope": { "score": 86, "raw": "2.0° avg" },
+        "grid_distance": { "score": 82, "raw": "2.2 km to substation" },
+        "land_cost": { "score": 60, "raw": "$4,500/acre" },
+        "maintenance": { "score": 78, "raw": "road access 0.9 km" },
+        "locality_distance": { "score": 55, "raw": "2.1 km to nearest town" },
+        "community": { "score": 65, "raw": "1 opposition article found" },
+        "wildlife": { "score": 38, "raw": "adjacent to protected kit fox habitat", "flag": true }
+      },
+      "verdict": "Strong technical site, but borders protected wildlife habitat." },
+    { "id": "p_7791", "name": "Shafter Plains", "lat": 35.50, "lng": -119.27, "score": 59, "rank": 9, "similarity_to_proven": 0.64, "slope_deg": 1.9, "aspect_deg": 170,
+      "factors": {
+        "irradiance": { "score": 82, "raw": "5.6 kWh/m²/day" },
+        "slope": { "score": 88, "raw": "1.9° avg" },
+        "grid_distance": { "score": 75, "raw": "3.1 km to substation" },
+        "land_cost": { "score": 58, "raw": "$4,700/acre" },
+        "maintenance": { "score": 80, "raw": "road access 0.4 km" },
+        "locality_distance": { "score": 22, "raw": "0.4 km to town center", "flag": true },
+        "community": { "score": 45, "raw": "2 opposition articles found" },
+        "wildlife": { "score": 85, "raw": "no protected habitat" }
+      },
+      "verdict": "Good fundamentals, but proximity to town drives noise and visual complaints." },
+    { "id": "p_8845", "name": "Arvin Backlands", "lat": 35.21, "lng": -118.83, "score": 57, "rank": 10, "similarity_to_proven": 0.58, "slope_deg": 4.5, "aspect_deg": 230,
+      "factors": {
+        "irradiance": { "score": 70, "raw": "5.1 kWh/m²/day" },
+        "slope": { "score": 65, "raw": "4.5° avg" },
+        "grid_distance": { "score": 40, "raw": "7.8 km to substation" },
+        "land_cost": { "score": 80, "raw": "$2,600/acre" },
+        "maintenance": { "score": 50, "raw": "road access 4.0 km" },
+        "locality_distance": { "score": 72, "raw": "5.5 km to nearest town" },
+        "community": { "score": 68, "raw": "no opposition found" },
+        "wildlife": { "score": 60, "raw": "minor grassland habitat" }
+      },
+      "verdict": "Cheap land but weak across grid access and maintenance access." },
+    { "id": "p_9912", "name": "McKittrick Flats", "lat": 35.30, "lng": -119.62, "score": 55, "rank": 11, "similarity_to_proven": 0.62, "slope_deg": 2.9, "aspect_deg": 140,
+      "factors": {
+        "irradiance": { "score": 86, "raw": "5.8 kWh/m²/day" },
+        "slope": { "score": 75, "raw": "2.9° avg" },
+        "grid_distance": { "score": 28, "raw": "16.2 km to substation", "flag": true },
+        "land_cost": { "score": 90, "raw": "$1,900/acre" },
+        "maintenance": { "score": 35, "raw": "road access 8.4 km", "flag": true },
+        "locality_distance": { "score": 85, "raw": "7.1 km to nearest town" },
+        "community": { "score": 78, "raw": "no opposition found" },
+        "wildlife": { "score": 82, "raw": "no protected habitat" }
+      },
+      "verdict": "Cheap land and good sun undermined by remote grid connection and high maintenance cost." },
+    { "id": "p_1078", "name": "Taft Hollow", "lat": 35.14, "lng": -119.46, "score": 47, "rank": 12, "similarity_to_proven": 0.48, "slope_deg": 5.2, "aspect_deg": 260,
+      "factors": {
+        "irradiance": { "score": 65, "raw": "4.8 kWh/m²/day" },
+        "slope": { "score": 55, "raw": "5.2° avg" },
+        "grid_distance": { "score": 45, "raw": "6.9 km to substation" },
+        "land_cost": { "score": 62, "raw": "$4,000/acre" },
+        "maintenance": { "score": 48, "raw": "road access 3.6 km" },
+        "locality_distance": { "score": 50, "raw": "2.5 km to nearest town" },
+        "community": { "score": 55, "raw": "1 opposition article found" },
+        "wildlife": { "score": 50, "raw": "minor grassland habitat" }
+      },
+      "verdict": "Weak across nearly every factor; not a competitive site." }
+  ]
+}
