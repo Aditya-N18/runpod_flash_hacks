@@ -1,14 +1,14 @@
-# SolariQ
+# SolarIQ
 
 A multi-factor solar-farm siting engine that scores land parcels on real-world data — including local community sentiment — so developers can find the best places to build solar, faster.
 
 ## The problem
 
-Choosing where to build a solar farm usually means juggling dozens of datasets, expensive consultants, and town-hall opinions. Good sun is not enough: a site can be far from the grid, on protected land, or opposed by the community. SolariQ automates the analysis so the decision is transparent, data-driven, and community-aware.
+Choosing where to build a solar farm usually means juggling dozens of datasets, expensive consultants, and town-hall opinions. Good sun is not enough: a site can be far from the grid, on protected land, or opposed by the community. SolarIQ automates the analysis so the decision is transparent, data-driven, and community-aware.
 
 ## What it does
 
-SolariQ takes candidate land parcels and scores each on 8 factors:
+SolarIQ takes candidate land parcels and scores each on 8 factors:
 
 - Solar irradiance (higher = better)
 - Grid proximity (closer = better)
@@ -19,7 +19,7 @@ SolariQ takes candidate land parcels and scores each on 8 factors:
 - Locality — distance to nearest town (sweet spot)
 - Maintenance access — road distance (closer = better)
 
-The most novel factor is community sentiment. SolariQ uses Bright Data to scrape local news and forum text about each town, then runs a Qwen2.5-3B-Instruct LLM on RunPod Flash to score community support from 0 to 100.
+The most novel factor is community sentiment. SolarIQ uses Bright Data to scrape local news and forum text about each town, then runs a Qwen2.5-3B-Instruct LLM on RunPod Flash to score community support from 0 to 100.
 
 ## Architecture
 
@@ -49,7 +49,7 @@ See `backend/README.md` and `backend/endpoints.md` for request/response shapes a
 
 ## Demo "aha"
 
-A site with the best sun can still rank last if it is 45 km from the grid. A site that looks fine on paper can be sunk by local opposition. SolariQ surfaces those project-killers before money is spent on permits and engineering.
+A site with the best sun can still rank last if it is 45 km from the grid. A site that looks fine on paper can be sunk by local opposition. SolarIQ surfaces those project-killers before money is spent on permits and engineering.
 
 ## Run it
 
